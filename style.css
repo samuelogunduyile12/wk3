@@ -1,0 +1,81 @@
+html{
+    font-size: 35px;
+}
+
+section{
+    margin: 70px auto;
+    width: 70%;
+    height: 600px;
+    /*border: 0.51rem solid blue;8*/
+}
+
+.flags:nth-of-type(1){
+    background: linear-gradient(90deg, green 33.33%,white 33.33%,white 66.66%, green 66.66%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+
+.flags:nth-of-type(2){
+    background: radial-gradient(circle, crimson 30%, white 30%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(3){
+    background: linear-gradient(180deg, red 33%,white 33%, white 38.8%, blue 38.8%, 61.0%, white 61.0%, white 66.6%, green 66.6% );
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(4){
+    background: linear-gradient(180deg, green 33%, yellow 33%, yellow 66%, blue 66%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(5){
+    background: linear-gradient(90deg, blue 33.33%,white 33.33%, white 66.66%, red 66.66%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(6){
+    background: linear-gradient(90deg, black 33.33%,yellow 33.33%, yellow 66.66%, red 66.66%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(7){
+    background: linear-gradient(180deg, black 33.33%, red 33.33%, red 66.66%, yellow 66.66%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(8){
+    background-image: url(./images/gana.png), linear-gradient(180deg, red 33.33%, gold 33.33%, gold 66.66%, green 66.66%);
+    background-repeat: no-repeat;
+    background-size: 200px, contain;
+    background-position: center;
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
+.flags:nth-of-type(9){
+    background-image: url(./images/cina-removebg-preview.png), url(./images/cina-removebg-preview.png), url(./images/cina-removebg-preview.png), url(./images/cina-removebg-preview.png), url(./images/cina-removebg-preview.png), linear-gradient(red, red);
+    background-repeat: no-repeat;
+    background-size: 140px, 52px, 52px, 52px, 52px, contain;
+    background-position: 70px 50px, 225px 40px, 280px 90px, 275px 165px, 225px 225px;
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+    border-top: 17.5px solid black;
+    border-bottom: 17.5px solid black;
+}
